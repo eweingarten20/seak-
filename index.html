@@ -9,28 +9,34 @@
 body,h1,h5 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-    background-image: url('/w3images/onepage_restaurant.jpg');
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/US_Navy_100813-N-3589B-096_Sailors_participate_in_a_community_plant_schrubs_with_local_children_during_a_community_service_project_at_the_Village_of_Hope_orphanage_in_Vietnam.jpg/1280px-thumbnail.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+#Titlee {
+
+  background-color: Black;
 }
 </style>
 <body>
 
 <div class="bgimg w3-display-container w3-text-white">
-  <div class="w3-display-middle w3-jumbo">
-    <p>logo</p>
-  </div>
-  <div class="w3-display-topleft w3-container w3-xlarge">
-    <p><button onclick="document.getElementById('issues').style.display='block'" class="w3-button w3-black">Issues</button></p>
-    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
-  </div>
-  <div class="w3-display-bottomleft w3-container">
-    <p class="w3-xlarge">monday - friday 10-23 | saturday 14-02</p>
-    <p class="w3-large">42 village St, New York</p>
-    <p>powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-  </div>
+<div class="w3-display-middle w3-jumbo">
+  <p id= "Titlee"> WISE MARK </p>
 </div>
+<div class="w3-display-topleft w3-container w3-xlarge">
+  <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">menu</button></p>
+  <p><button onclick="document.getElementById('Post').style.display='block'" class="w3-button w3-black">Post</button></p>
+  <p><button onclick="document.getElementById('About').style.display='block'" class="w3-button w3-black">About</button></p>
+</div>
+<div class="w3-display-bottomleft w3-container">
+  <p class="w3-xlarge">"Helping one person might not change the whole world, but it could change the world for one person."</p>
+  <p class="w3-large">Los Angeles, California</p>
+  <p>Created by Karen Rosales, Stephanie Ibrahim, Elle Weingarten, Ani Muckelroy </p>
+</div>
+</div>
+
 
 <!-- Issues Modal -->
 <div id="issues" class="w3-modal">
